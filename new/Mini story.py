@@ -328,6 +328,7 @@ version = "17.4.0+0"
 # ╔═╡ 00000000-0000-0000-0000-000000000003
 PLUTO_CONDAPKG_TOML_CONTENTS = """
 [deps]
+pkg = ""
 dill = ""
 
 [pip.deps]
