@@ -4,9 +4,15 @@
 import Pkg;Pkg.update("Pluto")
 
 # ╔═╡ f534358c-dbfe-4dce-bc37-6560e2af1a4a
-import Pkg;Pkg.add("PyCall"); using PyCall
-	os = pyimport("os")
-	os.system("ls")
+begin
+    import Pkg
+    Pkg.add([
+        Pkg.PackageSpec(name="Plots", version="1"),
+        Pkg.PackageSpec(name="PlutoUI", version="0.7"),
+		Pkg.PackageSpec(name="PyCall"),
+    ])
+    using Plots, PlutoUI, LinearAlgebra, PyCall
+end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
