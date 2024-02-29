@@ -4,13 +4,9 @@
 import Pkg;Pkg.update("Pluto")
 
 # ╔═╡ f534358c-dbfe-4dce-bc37-6560e2af1a4a
-begin
-	import Pkg
-	Pkg.update()
-	Pkg.add("PyCall"); using PyCall
+import Pkg;Pkg.add("PyCall"); using PyCall
 	os = pyimport("os")
 	os.system("ls")
-end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -337,7 +333,6 @@ version = "17.4.0+0"
 # ╔═╡ 00000000-0000-0000-0000-000000000003
 PLUTO_CONDAPKG_TOML_CONTENTS = """
 [deps]
-pkg = ""
 dill = ""
 
 [pip.deps]
