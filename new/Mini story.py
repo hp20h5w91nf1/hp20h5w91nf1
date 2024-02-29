@@ -1,7 +1,7 @@
 ### A Pluto.jl notebook ###
 # v0.19.28
 # Welcome to your Python reactive notebook.# ╔═╡ 3fd5a46c-d6ed-11ee-1fd8-b92a3e772ebc
-import Pkg;Pkg.update("Pluto")
+import Pkg;Pkg.update("PyCall")
 
 # ╔═╡ f534358c-dbfe-4dce-bc37-6560e2af1a4a
 begin
@@ -339,6 +339,7 @@ version = "17.4.0+0"
 # ╔═╡ 00000000-0000-0000-0000-000000000003
 PLUTO_CONDAPKG_TOML_CONTENTS = """
 [deps]
+pkg = ""
 dill = ""
 
 [pip.deps]
