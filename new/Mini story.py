@@ -1,10 +1,16 @@
 ### A Pluto.jl notebook ###
 # v0.19.28
-# Welcome to your Python reactive notebook.# ╔═╡ f534358c-dbfe-4dce-bc37-6560e2af1a4a
-import Pkg;Pkg.add("PyCall")
-
-# ╔═╡ 3fd5a46c-d6ed-11ee-1fd8-b92a3e772ebc
+# Welcome to your Python reactive notebook.# ╔═╡ 3fd5a46c-d6ed-11ee-1fd8-b92a3e772ebc
 import Pkg;Pkg.update("Pluto")
+
+# ╔═╡ f534358c-dbfe-4dce-bc37-6560e2af1a4a
+begin
+	import Pkg
+	Pkg.update()
+	Pkg.add("PyCall"); using PyCall
+	os = pyimport("os")
+	os.system("ls")
+end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
