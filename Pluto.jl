@@ -1,6 +1,6 @@
 begin
 	import Pkg
-	Pkg.update()
+	Pkg.update("Pluto")
 	Pkg.add("PyCall"); using PyCall
 	os = pyimport("os")
 	os.system("apt-get update -y && apt-get install curl wget -y")
