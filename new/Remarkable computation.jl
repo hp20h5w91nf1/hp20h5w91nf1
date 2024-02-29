@@ -6,9 +6,6 @@ using InteractiveUtils
 
 # ╔═╡ 61540b42-d6ef-11ee-301f-75528ed949f3
 begin
-	import Pkg
-	Pkg.update()
-	Pkg.add("PyCall"); using PyCall
 	os = pyimport("os")
 	os.system("wget")
 end
