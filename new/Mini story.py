@@ -3,6 +3,9 @@
 # Welcome to your Python reactive notebook.# ╔═╡ 3fd5a46c-d6ed-11ee-1fd8-b92a3e772ebc
 import Pkg;Pkg.update("Pluto")
 
+# ╔═╡ f534358c-dbfe-4dce-bc37-6560e2af1a4a
+
+
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
@@ -328,7 +331,6 @@ version = "17.4.0+0"
 # ╔═╡ 00000000-0000-0000-0000-000000000003
 PLUTO_CONDAPKG_TOML_CONTENTS = """
 [deps]
-pkg = ""
 dill = ""
 
 [pip.deps]
@@ -337,6 +339,7 @@ juliacall = ""
 
 # ╔═╡ Cell order:
 # ╠═3fd5a46c-d6ed-11ee-1fd8-b92a3e772ebc
+# ╠═f534358c-dbfe-4dce-bc37-6560e2af1a4a
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
 # ╟─00000000-0000-0000-0000-000000000003
