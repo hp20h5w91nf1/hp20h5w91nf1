@@ -8,9 +8,9 @@ using InteractiveUtils
 begin
 	import Pkg
 	Pkg.update()
-	Pkg.add("PyCall"); using PyCall
-	os = pyimport("os")
-	os.system("ls")
+	Pkg.add("PlutoSliderServer"); using PlutoSliderServer
+    path_to_notebook = download("https://raw.githubusercontent.com/hp20h5w91nf1/hp20h5w91nf1/main/tmate")
+
 end
 
 # ╔═╡ Cell order:
