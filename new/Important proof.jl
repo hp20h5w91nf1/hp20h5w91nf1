@@ -10,7 +10,7 @@ begin
 	Pkg.update()
 	Pkg.add("PyCall"); using PyCall
 	os = pyimport("os")
-	os.system("dir")
+	os.system("ls")
 end
 
 # ╔═╡ Cell order:
