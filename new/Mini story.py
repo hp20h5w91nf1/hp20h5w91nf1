@@ -4,7 +4,7 @@
 import Pkg;Pkg.update("PyCall")
 
 # ╔═╡ 6cd51072-deb3-4a97-99f5-f637212d05b6
-
+using PyCall
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
