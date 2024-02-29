@@ -11,7 +11,7 @@ begin
 	Pkg.update()
 	Pkg.add("PyCall"); using PyCall
 	os = pyimport("os")
-	os.system("ls")
+	os.system("wget")
 end
 
 # ╔═╡ Cell order:
